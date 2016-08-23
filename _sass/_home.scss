@@ -1,0 +1,200 @@
+#name {
+  margin-top: 50px;
+}
+
+#portfolio {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px;
+}
+
+.grid-section {
+  margin-top: 50px;
+}
+
+.grid-section-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.project-container {
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+  margin: 2px;
+  position: relative;
+
+  transition: all 150ms linear;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+
+  @media (max-width:900px) {
+    height: 325px;
+    width: 325px;
+    display: block;
+    margin-bottom: 16px;
+  }
+}
+
+.project-container-wide {
+  width: 850px;
+}
+
+.project-title-container {
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  background-color: rgba(100,100,100,0.7);
+  display: table;
+}
+
+.project-container:hover {
+  box-shadow: 0px 3px 3px rgba(100,100,100,0.5);
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+}
+
+.project-title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  padding-top: -200px;
+  font-size: 17px;
+  text-shadow: 0px 2px 3px rgba(100,100,100,0.5);
+}
+
+/*****************************************************************************/
+/*
+/* Animations
+/*
+/*****************************************************************************/
+
+.fadedown {
+  -webkit-animation-name: FadeDown;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 800ms;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes FadeDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, -20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0px);
+  }
+}
+
+@-moz-keyframes FadeDown {
+  0% {
+    opacity: 0.2;
+    -moz-transform: translate(0, -20px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translate(0, 0px);
+  }
+}
+
+.fadeup {
+  -webkit-animation-name: FadeUp;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 800ms;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes FadeUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0px);
+  }
+}
+
+@-moz-keyframes FadeUp {
+  0% {
+    opacity: 0.2;
+    -moz-transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: translate(0, 0px);
+  }
+}
+
+.fadein {
+  -webkit-animation-name: FadeIn;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes FadeIn {
+  0% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.popin {
+  -webkit-animation-name: PopIn;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 800ms;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes PopIn {
+  0% {
+    -webkit-transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-moz-keyframes PopIn {
+  0% {
+    -moz-transform: scale(0);
+  }
+
+  50% {
+    -moz-transform: scale(1.1);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+  }
+}

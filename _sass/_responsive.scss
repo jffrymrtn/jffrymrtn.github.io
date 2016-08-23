@@ -1,0 +1,25 @@
+@media (max-width:900px) {
+  .project-hero {
+    height: 350px !important;
+  }
+
+  #project-title {
+    margin-left: 25px !important;
+  }
+
+  #project-page h1 {
+    font-size: 30px !important;
+  }
+
+  #project-description {
+    width: 85% !important;
+  }
+
+  #project-page p img {
+    max-width: 275px !important;
+  }
+
+  #project-page p video {
+    max-width: 275px !important;
+  }
+}

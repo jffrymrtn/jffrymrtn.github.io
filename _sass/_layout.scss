@@ -1,0 +1,55 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+}
+
+body {
+  background-color: #fff;
+  text-align: center;
+}
+
+a {
+  color: $text-color;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($text-color, 5%);
+  }
+
+  &:hover {
+    opacity: 0.7;
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+.horiz-list {
+  display: inline-block;
+  list-style: none;
+  list-style-type: none;
+}
+
+.page-title {
+  font-size: 42px;
+  line-height: 47px;
+}
+
+.centered-wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+.emphasize {
+  font-weight: 600;
+  border-bottom: 1px solid #9575cd;
+  color: #9575cd;
+}
