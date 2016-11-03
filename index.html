@@ -7,10 +7,10 @@ title: Jeff Martin - Portfolio
     <a href="/">Jeff Martin. UI Designer &amp; Developer.</a>
   </h1>
 
-  <!-- Mobile Grid -->
+  <!-- Web Grid -->
   <article id="works-grid" class="grid-section">
-    <h3 class="grid-section-title">Mobile</h3>
-    {% for project in site.categories.mobile %}
+    <h3 class="grid-section-title">Web</h3>
+    {% for project in site.categories.web %}
     <a href="{{ project.url }}">
       <div class="project-container fadein" style="background: url('../images/projects/{{ project.thumbnail }}') no-repeat center center; background-size: cover;">
         <div class="project-title-container"><p class="project-title">{{ project.title }}</p></div>
@@ -18,12 +18,11 @@ title: Jeff Martin - Portfolio
     </a>
     {% endfor %}
   </article>
-
-
-  <!-- Web Grid -->
+  
+  <!-- Mobile Grid -->
   <article id="works-grid" class="grid-section">
-    <h3 class="grid-section-title">Web</h3>
-    {% for project in site.categories.web %}
+    <h3 class="grid-section-title">Mobile</h3>
+    {% for project in site.categories.mobile %}
     <a href="{{ project.url }}">
       <div class="project-container fadein" style="background: url('../images/projects/{{ project.thumbnail }}') no-repeat center center; background-size: cover;">
         <div class="project-title-container"><p class="project-title">{{ project.title }}</p></div>
