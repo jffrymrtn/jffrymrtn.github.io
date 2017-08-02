@@ -23,26 +23,9 @@
 }
 
 .project-hero {
-  height: 375px;
+  height: 200px;
   width: 100%;
   position: relative;
-}
-
-.fix-hero {
-  position: fixed;
-  top: 0;
-  height: 75px !important;
-}
-
-.fix-hero #project-title {
-  height: 75px;
-  line-height: 75px;
-  text-align: left;
-  color: #fff !important;
-  margin-left: 50px;
-  position: relative;
-  margin-top: 0;
-  bottom: 0;
 }
 
 #project-title {
