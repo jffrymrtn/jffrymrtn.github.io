@@ -4,13 +4,17 @@ title: Jeff Martin - Portfolio
 ---
 <section class="home full-page" id="portfolio">
   <h1 id="name" class="whoami-paragraph">
-    <a href="/">Jeff Martin. UI Designer.</a>
+    <a href="/">Hey! I'm Jeff Martin.</a>
   </h1>
-
-  <!-- Web Grid -->
+  
+  <h2 id="title" class="whoami-paragraph">
+    I'm a UI Designer.
+  </h2>
+  
+  <!-- Mobile Grid -->
   <article id="works-grid" class="grid-section">
-    <h3 class="grid-section-title">Web</h3>
-    {% for project in site.categories.web %}
+    <h3 class="grid-section-title">Mobile</h3>
+    {% for project in site.categories.mobile %}
     <a href="{{ project.url }}">
       <div class="project-container fadein" style="background: url('../images/projects/{{ project.thumbnail }}') no-repeat center center; background-size: cover;">
         <div class="project-title-container"><p class="project-title">{{ project.title }}</p></div>
@@ -19,10 +23,10 @@ title: Jeff Martin - Portfolio
     {% endfor %}
   </article>
   
-  <!-- Mobile Grid -->
+  <!-- Web Grid -->
   <article id="works-grid" class="grid-section">
-    <h3 class="grid-section-title">Mobile</h3>
-    {% for project in site.categories.mobile %}
+    <h3 class="grid-section-title">Web</h3>
+    {% for project in site.categories.web %}
     <a href="{{ project.url }}">
       <div class="project-container fadein" style="background: url('../images/projects/{{ project.thumbnail }}') no-repeat center center; background-size: cover;">
         <div class="project-title-container"><p class="project-title">{{ project.title }}</p></div>
