@@ -20,10 +20,7 @@ The app currently has over 12,000 downloads on Google Play, and holds a 4.2-star
 
 Recently, I handed a spin-off of Writeily, called Writeily Pro, off to a loyal contributor, who now fully maintains and owns the app while I tackle on new projects.
 
-The original Writeily can be viewed and downloaded on the Google Play Store here:
-[https://play.google.com/store/apps/details?id=com.jmartin.writeily&hl=en](https://play.google.com/store/apps/details?id=com.jmartin.writeily&hl=en)
-
-You can also view the source code [on Github](https://github.com/jffry-mrtn/writeily)
+Writeily is no oonger on the Play Store but you can view the source code [on Github](https://github.com/jffry-mrtn/writeily)
 
 ![screenshot](/images/projects/writeily/home.png)
 
